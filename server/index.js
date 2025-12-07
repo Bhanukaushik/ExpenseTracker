@@ -11,7 +11,7 @@ import router from './routes/expenseRoutes.js';
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'https://expense-tracker-livid-two-15.vercel.app/' }));
+app.use(cors({ origin: 'https://expense-tracker-livid-two-15.vercel.app' }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
